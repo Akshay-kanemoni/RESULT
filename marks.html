@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESULT</title>
+</head>
+<body style="font-family: cursive;text-align: center;">
+    
+        <div class="container" style="background-color:rgba(45, 104, 45, 0.397) ;border-radius: 50px;">
+            <form onsubmit="return percentage_01()">
+                <div class="form-title">
+                    <h3 style="font-size: X-large;background-color: chocolate;border-radius: 25px;">...CHECK YOUR 
+                        PERCENTAGE...</h3>
+                </div>
+                <div class="form-container">
+                    <div class="form-links">
+                        <input type="number" name="Marks" id="marks" placeholder="Enter your marks">
+                    </div><BR>
+                    <div class="form-links">
+                        <input type="number" name="totalMarks" id="totalMarks" placeholder="Enter your Total Marks">
+                    </div>
+                    <div class="form-links">
+                        <label for="result"><B>Percentage :</B></label><br>
+                        <input type="text" name="result" id="result" placeholder="Percentage" disabled>
+                    </div>
+                    <div class="form-links">
+                        <label for="grade">Grade :</label><br>
+                        <input type="text" name="grade" id="grade" placeholder="Grade" disabled>
+                    </div><br>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Check">
+                </div>
+            </form>
+        </div>
+    <script src="./marks.js"></script>
+</body>
+</html>
